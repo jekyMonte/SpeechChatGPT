@@ -9,8 +9,9 @@ openai.api_key = API_KEY
 engine = pyttsx3.init()
 
 r = sr.Recognizer()
-mic = sr.Microphone(device_index=1)
-
+mic = sr.Microphone(device_index=0) # << Adjust the device_index with the microphone on your device
+print(sr.Microphone.list_working_microphones()) 
+print(sr.Microphone.list_microphone_names()) 
 
 conversation = ""
 user_name = "You"
@@ -19,7 +20,7 @@ bot_name = "Jarvis"
 while True:
     with mic as source:
         print("\nlistening...")
-        r.adjust_for_ambient_noise(source, duration=0.2)
+        r.adjust_for_ambient_noise(source, duration=0.8)
         audio = r.listen(source)
     print("no longer listening.\n")
 
