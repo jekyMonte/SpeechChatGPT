@@ -4,11 +4,6 @@
 
 [![Language](https://img.shields.io/badge/Language-Python-blue)](https://www.python.org) [![Library](https://img.shields.io/badge/Library-pyttsx3-orange)](https://pypi.org/project/pyttsx3/) [![Library](https://img.shields.io/badge/Library-speech__recognition-orange)](https://pypi.org/project/speech_recognition/) [![Library](https://img.shields.io/badge/Library-openai-orange)](https://pypi.org/project/openai/)
 
-## Table of Contents
-
-- [Introduction](#introduction)
-- [Installation](#installation)
-- [Usage](#usage)
 
 ## Introduction
 
@@ -26,14 +21,25 @@ You can install these libraries using the following command:
 
 ```bash
 pip install openai pyttsx3 speech_recognition
-
 ```
+## Editing the API Key
+
+To use your own API key for the OpenAI API, follow these steps:
+
+1. Obtain an API key from [OpenAI](https://openai.com).
+2. Open the `api_key.py` file in a text editor.
+3. Replace the string `API_KEY` with your own API key, keeping the quotation marks.
+4. Save the file and close the text editor.
+
+Your code should now use your own API key when making requests to the OpenAI API.
+
+
 ## Usage
 
 To run this code, open a terminal and run the following command:
 
 ```bash
-python file_name.py
+python gpt3Bot.py
 ```
 Follow the instructions given by the chatbot to hold a conversation with it.
 
