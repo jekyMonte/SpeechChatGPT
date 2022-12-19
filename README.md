@@ -47,8 +47,9 @@ Follow the instructions given by the chatbot to hold a conversation with it.
 ## Acknowledgements
 
 - [OpenAI API](https://openai.com) for providing the chatbot functionality
+- [pyaudio](https://pypi.org/project/PyAudio/) for providing audio recording and playback functionality
 - [pyttsx3](https://pypi.org/project/pyttsx3/) for providing text-to-speech functionality
-- [speech_recognition](https://pypi.org/project/speech_recognition/) for providing speech-to-text functionality
+- [speech_recognition](https://pypi.org/project/SpeechRecognition/) for providing speech-to-text functionality
 
 Thank you to the following for their contributions to this project
 
