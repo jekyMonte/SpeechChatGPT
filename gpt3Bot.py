@@ -25,7 +25,7 @@ while True:
     print("no longer listening.\n")
 
     try:
-        user_input = r.recognize_google(audio)
+        user_input = r.recognize_google(audio, language='id', show_all=True)
     except:
         continue
 
