@@ -2,7 +2,7 @@
 
 **A chatbot that can hold a conversation with you and translate it into speech!**
 
-[![Language](https://img.shields.io/badge/Language-Python-blue)](https://www.python.org) [![Library](https://img.shields.io/badge/Library-pyttsx3-orange)](https://pypi.org/project/pyttsx3/) [![Library](https://img.shields.io/badge/Library-speech__recognition-orange)](https://pypi.org/project/speech_recognition/) [![Library](https://img.shields.io/badge/Library-openai-orange)](https://pypi.org/project/openai/)
+[![Language](https://img.shields.io/badge/Language-Python-blue)](https://www.python.org) [![Library](https://img.shields.io/badge/Library-pyttsx3-orange)](https://pypi.org/project/pyttsx3/) [![Library](https://img.shields.io/badge/Library-speech__recognition-orange)](https://pypi.org/project/speech_recognition/) [![Library](https://img.shields.io/badge/Library-openai-orange)](https://pypi.org/project/openai/) [![Library](https://img.shields.io/badge/Library-pyaudio-orange)](https://pypi.org/project/PyAudio/)
 
 
 ## Introduction
@@ -14,13 +14,14 @@ This project creates a chatbot that can hold a conversation with you using the O
 To run this code, you need to install the following libraries:
 
 - openai
+- pyaudio
 - pyttsx3
 - speech_recognition
 
 You can install these libraries using the following command:
 
 ```bash
-pip install openai pyttsx3 speech_recognition
+pip install -r requirement.txt
 ```
 ## Editing the API Key
 
